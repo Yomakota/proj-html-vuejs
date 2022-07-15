@@ -2,7 +2,7 @@
 HeaderPage, MainPage e FooterPage.
 
 Suddivisione FooterPage in 2 e HeaderPage in 3 micro-componenti
-Suddivisione MainPage in 8 micro-componenti o sections
+Suddivisione MainPage in 7/8 micro-componenti o sections
 
 Popolare le voci di menù di HeaderPage e FooterPage dinamicamente, tramite delle props, creando una struttura dati idonea.
 Aggiungere in App.vue i data che riporto con props alle componenti discendenti
