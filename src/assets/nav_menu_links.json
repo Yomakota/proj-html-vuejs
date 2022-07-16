@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "fa-chart-line",
+        "text": "Business"
+    },
+    {
+        "icon": "fa-palette",
+        "text": "Design"
+    },
+    {
+        "icon": "fa-cog",
+        "text": "Development"
+    },
+    {
+        "icon": "fa-smile",
+        "text": "Lifestyle"
+    },
+    {
+        "icon": "fa-wallet",
+        "text": "Office Productivity"
+    }
+]

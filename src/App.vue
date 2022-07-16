@@ -12,16 +12,28 @@ importo bootstrap -->
 
 <template>
   <div id="app">
-
+    <HeaderPage
+    :links="links"
+    :social_links="social_links"
+    :nav_menu_links="nav_menu_links"
+    />
   </div>
 </template>
 
 <script>
-
+import nav_menu_links from './assets/nav_menu_links.json'
+import HeaderPage from './components/HeaderPage.vue'
 export default {
   name: 'App',
   components: {
-
+    HeaderPage,
+  },
+  data() {
+    return {
+      links: ['Home', 'Pages', 'Course Formats', 'Courses', 'Demos'],
+      social_links: ['fa-facebook', 'fa-twitter', 'fa-instagram', 'fa-linkedin', 'fa-google-plus', 'fa-youtube'],
+      nav_menu_links: nav_menu_links
+    }
   }
 }
 </script>
