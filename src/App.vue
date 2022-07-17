@@ -12,18 +12,14 @@ importo bootstrap -->
 
 <template>
   <div id="app">
-    <HeaderPage
-    :links="links"
-    :social_links="social_links"
-    :nav_menu_links="nav_menu_links"
-    />
-    <MainPage :courses="courses"/>
+    <HeaderPage :links="links" :social_links="social_links" :nav_menu_links="nav_menu_links" />
+    <MainPage :courses="courses" :recent_courses_menu="recent_courses_menu" :side_menu_icons="side_menu_icons" />
   </div>
 </template>
 
 <script>
 import nav_menu_links from './assets/nav_menu_links.json'
-import {links, social_links, courses} from './assets/data.js'
+import { links, social_links, courses, recent_courses_menu, side_menu_icons } from './assets/data.js'
 
 
 import HeaderPage from './components/HeaderPage.vue'
@@ -41,6 +37,8 @@ export default {
       social_links: social_links,
       nav_menu_links: nav_menu_links,
       courses: courses,
+      recent_courses_menu: recent_courses_menu,
+      side_menu_icons: side_menu_icons,
     }
   }
 }

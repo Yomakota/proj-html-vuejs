@@ -1,6 +1,6 @@
 <template>
     <li class="col my-5">
-        <div class="card">
+        <div class="card h-100">
             <div class="card-img-top">
                 <img :src="courses.img" :alt="courses.description" class="w-100">
             </div>

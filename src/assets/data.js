@@ -1,9 +1,9 @@
 export const links = [
-'Home',
-'Pages',
-'Course Formats',
-'Courses',
-'Demos'
+    'Home',
+    'Pages',
+    'Course Formats',
+    'Courses',
+    'Demos'
 ]
 
 export const social_links = [
@@ -14,7 +14,6 @@ export const social_links = [
     'fa-google-plus',
     'fa-youtube'
 ]
-
 
 export const courses = [
     {
@@ -66,10 +65,10 @@ export const courses = [
         vote: 5
     },
     {
-        img: require("./images/366802_6fcc-272x161.jpg"),
+        img: require("./images/949316_2a64_11-272x161.jpg"),
         category: "Arts & Craft",
         description: "Foundations for Mastering Watercolor Painting",
-        full_price:"$19.99",
+        full_price: "$19.99",
         discounted_price: "$10",
         vote: 5
     },
@@ -117,7 +116,7 @@ export const courses = [
         img: require("./images/752950_b773-272x161.jpg"),
         category: "development",
         description: "GitHub Ultimate: Master Git and GitHub - Beginner to Expert",
-        full_price:"$99.99",
+        full_price: "$99.99",
         discounted_price: "$50",
         vote: 4
     },
@@ -145,4 +144,23 @@ export const courses = [
         discounted_price: "$95",
         vote: 5
     }
+]
+
+export const recent_courses_menu = [
+    "All Categories",
+    "Business",
+    "Design",
+    "Development",
+    "IT & Software",
+    "Lifestyle",
+    "Marketing",
+    "Office Productivity",
+]
+
+export const side_menu_icons = [
+    "fa-desktop",
+    "fa-life-ring",
+    "fa-wrench",
+    "fa-shopping-cart",
+    "fa-mobile-alt",
 ]
