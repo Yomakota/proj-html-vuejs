@@ -1,7 +1,7 @@
 <template>
-    <div class="testimonial container-fluid position-relative my-5">
+    <div class="testimonial container-fluid position-relative mt-5">
         <div class="row h-100 align-items-center justify-content-center">
-            <div class="text-banner col-4">
+            <div class="text-banner col-5">
                 <h3>Investing for Your Future</h3>
                 <p class=" mt-4 mb-4">It is no exageration to say this Masterstudy
                     experience was trasformative-both professionally and personally. This
@@ -31,9 +31,9 @@ export default {
         background-color: white;
         position: absolute;
         top: 10%;
-        left: 25%;
-        padding: 90px 70px;
-        line-height: 2em;
+        left: 20%;
+        padding: 50px;
+        line-height: 1.5em;
 
         .signed {
             font-size: 0.8em;

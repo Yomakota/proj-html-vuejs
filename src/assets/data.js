@@ -164,3 +164,38 @@ export const side_menu_icons = [
     "fa-shopping-cart",
     "fa-mobile-alt",
 ]
+
+export const footer_socials = [
+    {
+        color: "facebook",
+        icon: "fa-facebook"
+    },
+    {
+        color: "instangram",
+        icon: "fa-instagram"
+    },
+    {
+        color: "linkedin",
+        icon: "fa-linkedin"
+    },
+    {
+        color: "pinterest",
+        icon: "fa-pinterest"
+    },
+    {
+        color: "twitter",
+        icon: "fa-twitter"
+    },
+    {
+        color: "dribble",
+        icon: "fa-dribbble"
+    },
+    {
+        color: "google",
+        icon: "fa-google-plus"
+    },
+    {
+        color: "skype",
+        icon: "fa-skype"
+    },
+]
