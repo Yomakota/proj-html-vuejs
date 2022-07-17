@@ -8,12 +8,15 @@
                     <main_card v-for="element, index in getPopsCourses" :key="index" :courses="element" />
                 </ul>
             </div>
-            <div>
-                <button>
-                </button>
-                <button>
-
-                </button>
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <button>
+                        <i class="fas fa-angle-left"></i>
+                    </button>
+                    <button>
+                        <i class="fas fa-angle-right"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
