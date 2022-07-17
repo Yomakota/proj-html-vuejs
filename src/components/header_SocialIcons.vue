@@ -7,7 +7,7 @@
 </template>
 <script>
 export default {
-    name: 'headerSocial',
+    name: 'header_SocialIcons',
     props: ['social_links']
 }
 </script>

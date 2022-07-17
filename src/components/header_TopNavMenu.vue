@@ -19,7 +19,7 @@
                         </div>
                         <div>
                             <ul class="nav ms-2">
-                                <headerSocial v-for=" element, index in social_links" :key="index"
+                                <header_SocialIcons v-for=" element, index in social_links" :key="index"
                                     :social_links="element" />
                             </ul>
                         </div>
@@ -33,12 +33,12 @@
 
 <script>
 import '@fortawesome/fontawesome-free/js/all.js';
-import headerSocial from './headerSocial.vue';
+import header_SocialIcons from './header_SocialIcons.vue';
 
 export default {
-    name: "HeaderTopNav",
+    name: "header_TopNavMenu",
     components: {
-        headerSocial,
+        header_SocialIcons,
     },
     props: ['links', 'social_links']
 }

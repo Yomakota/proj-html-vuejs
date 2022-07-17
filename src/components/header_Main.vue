@@ -53,7 +53,7 @@
 
 <script>
 export default {
-    name: 'HeaderMain'
+    name: 'header_Main'
 }
 </script>
 <style lang="scss" scoped>

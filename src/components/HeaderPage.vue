@@ -1,22 +1,22 @@
 <template>
     <header class="header">
-        <HeaderTopNav :links="links" :social_links="social_links" />
-        <HeaderMain />
-        <HeaderNavMenu :nav_menu_links="nav_menu_links" />
+        <header_TopNavMenu :links="links" :social_links="social_links" />
+        <header_Main />
+        <header_BottomNavMenu :nav_menu_links="nav_menu_links" />
     </header>
 </template>
 <script>
 
-import HeaderTopNav from './HeaderTopNav.vue'
-import HeaderMain from './HeaderMain.vue'
-import HeaderNavMenu from './HeaderNavMenu.vue'
+import header_TopNavMenu from './header_TopNavMenu.vue'
+import header_Main from './header_Main.vue'
+import header_BottomNavMenu from './header_BottomNavMenu.vue'
 
 export default {
     name: 'HeaderPage',
     components: {
-        HeaderTopNav,
-        HeaderMain,
-        HeaderNavMenu,
+        header_TopNavMenu,
+        header_Main,
+        header_BottomNavMenu,
     },
     props: ['links', 'social_links', 'nav_menu_links']
 }

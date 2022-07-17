@@ -17,22 +17,30 @@ importo bootstrap -->
     :social_links="social_links"
     :nav_menu_links="nav_menu_links"
     />
+    <MainPage :courses="courses"/>
   </div>
 </template>
 
 <script>
 import nav_menu_links from './assets/nav_menu_links.json'
+import {links, social_links, courses} from './assets/data.js'
+
+
 import HeaderPage from './components/HeaderPage.vue'
+import MainPage from './components/MainPage.vue'
+
 export default {
   name: 'App',
   components: {
     HeaderPage,
+    MainPage,
   },
   data() {
     return {
-      links: ['Home', 'Pages', 'Course Formats', 'Courses', 'Demos'],
-      social_links: ['fa-facebook', 'fa-twitter', 'fa-instagram', 'fa-linkedin', 'fa-google-plus', 'fa-youtube'],
-      nav_menu_links: nav_menu_links
+      links: links,
+      social_links: social_links,
+      nav_menu_links: nav_menu_links,
+      courses: courses,
     }
   }
 }

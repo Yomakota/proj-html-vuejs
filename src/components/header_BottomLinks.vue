@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-    name: 'menuNavHeader',
+    name: 'header_BottomLinks',
     props: ['nav_menu_links']
 }
 </script>

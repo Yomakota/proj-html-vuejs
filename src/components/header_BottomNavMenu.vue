@@ -3,20 +3,21 @@
         <div class="row justify-content-center py-4">
             <div class="col-11">
                 <ul class="nav justify-content-center">
-                    <menuNavHeader v-for="element, index in nav_menu_links" :key="index" :nav_menu_links="element" />
+                    <header_BottomLinks v-for="element, index in nav_menu_links" :key="index"
+                        :nav_menu_links="element" />
                 </ul>
             </div>
         </div>
     </div>
 </template>
 <script>
-import menuNavHeader from './menuNavHeader.vue';
+import header_BottomLinks from './header_BottomLinks.vue';
 
 export default {
-    name: 'HeaderNavMenu',
+    name: 'header_BottomNavMenu',
     props: ['nav_menu_links'],
     components: {
-        menuNavHeader,
+        header_BottomLinks,
     }
 }
 </script>
