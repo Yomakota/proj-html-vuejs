@@ -1,6 +1,6 @@
 <template>
     <li class="col social_color">
-        <a :class="footer_socials.color">
+        <a class="p-2" :class="footer_socials.color">
             <i :class="'fab ' + footer_socials.icon"></i>
         </a>
     </li>
@@ -15,8 +15,11 @@ export default {
 @import '../assets/scss/style.scss';
 
 .social_color a {
-    padding: 6px 11px;
-    border-radius: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover{
+        color: $venus;
+    }
 
     &.facebook {
         background-color: $azure;

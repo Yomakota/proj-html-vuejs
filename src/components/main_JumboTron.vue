@@ -1,12 +1,13 @@
 <template>
-    <div>
-        <div class="jumbotron my-4 container-fluid">
-            <div class="row h-100">
+    <section id="jumbotron" class="my-4">
+        <div class="container-fluid">
+            <div class="row">
                 <div class="col-12 text-light cover-jumbo position-relative">
-                    <!-- img jumbo -->
-                    <img class="h-100 w-50" src="../assets/images/slide-1.jpg" alt="Affiliate Sales">
-                    <div class="row h-100 align-items-center justify-content-center">
-                        <div class="col-8">
+                    <div>
+                        <img class="h-100 w-50" src="../assets/images/slide-1.jpg" alt="Affiliate Sales">
+                    </div>
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-8 py-6">
                             <div class="row">
                                 <div class="col-6">
                                     <h2 class="fw-bolder fs-1 mb-4">Udemy Affiliate Sales</h2>
@@ -18,7 +19,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
@@ -29,9 +30,10 @@ export default {
 
 <style lang="scss">
 @import '../assets/scss/style.scss';
-.jumbotron {
-    height: 400px;
-
+#jumbotron {
+    .py-6{
+        padding: 6em 0;
+    }
     .cover-jumbo {
         background-image: linear-gradient(68deg, $coral-red 54%, transparent 1px);
 

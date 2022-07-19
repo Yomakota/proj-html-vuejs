@@ -1,25 +1,31 @@
 <template>
-    <div class="container-fluid position-relative my-5">
-        <div class="row justify-content-center">
-            <div class="col-11 text-center">
-                <h1>Popular courses</h1>
-                <h2>Discover our most popular courses for self learning</h2>
-                <ul class="row row-cols-6 list-unstyled">
-                    <main_card v-for="element, index in getPopsCourses" :key="index" :courses="element" />
-                </ul>
-            </div>
-            <div class="row mb-5">
-                <div class="col text-center">
-                    <button>
-                        <i class="fas fa-angle-left"></i>
-                    </button>
-                    <button>
-                        <i class="fas fa-angle-right"></i>
-                    </button>
+    <section id="pops-courses">
+        <div id="popular-courses" class="container-fluid mb-5 py-5">
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <div class="title mb-5 text-center">
+                        <h2 class="fw-bold fs-1">Popular courses</h2>
+                        <h3 class="fw-light fs-6">Discover our most popular courses for self learning</h3>
+                    </div>
+                    <div>
+                        <ul class="row row-cols-6 list-unstyled">
+                            <main_card v-for="element, index in getPopsCourses" :key="index" :courses="element" />
+                        </ul>
+                    </div>
+                </div>
+                <div class="row my-5">
+                    <div class="col text-center">
+                        <button class="px-3 py-2">
+                            <i class="fas fa-angle-left"></i>
+                        </button>
+                        <button class="px-3 py-2">
+                            <i class="fas fa-angle-right"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 import main_card from './main_card.vue';
@@ -37,6 +43,23 @@ export default {
     }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
+@import'../assets/scss/style.scss';
+
+#popular-courses {
+    background-color: $mistic;
+
+    button {
+        background-color: $white;
+        border-color: $mistic;
+        color: $mistic;
+        font-size: 1.5em;
+
+        &:hover {
+            background-color: $oxford-blue;
+            color: $mistic;
+        }
+    }
+}
 
 </style>

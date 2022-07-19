@@ -1,11 +1,13 @@
 <template>
     <div id="header-top" class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-11 py-3">
+            <div class="col-11 py-1">
                 <div class="row align-items-center">
-                    <div id="language" class="col-2">
-                        <span class="m-2">English</span>
-                        <i class="fas fa-angle-down"></i>
+                    <div class="col-2">
+                        <label class="align-middle m-2">English</label>
+                        <button class="btn btn-outline p-0">
+                            <i class="fas fa-angle-down"></i>
+                        </button>
                     </div>
                     <div id="nav-menu" class="nav col-10 align-items-center justify-content-end">
                         <div>
@@ -48,6 +50,11 @@ export default {
 @import '../assets/scss/style.scss';
 
 #header-top{
-    border-bottom: 1px solid $venus;
+    color: lightgray;
+    font-size: 12px;
+    border-bottom: 1px solid $mistic;
+}
+.btn.btn-outline {
+    color: lightgrey;
 }
 </style>

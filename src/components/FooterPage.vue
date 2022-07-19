@@ -19,4 +19,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import '../assets/scss/style.scss';
+footer{
+    background-color: $ebony-clay;
+}
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div id="header-nav-menu" class="container-fluid">
+    <div id="header-bottom-nav-menu" class="container-fluid">
         <div class="row justify-content-center py-4">
             <div class="col-11">
                 <ul class="nav justify-content-center">
@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/style.scss';
 
-#header-nav-menu{
+#header-bottom-nav-menu{
     background-color: $ebony-clay;
     color: white;
 }

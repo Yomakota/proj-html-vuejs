@@ -1,5 +1,5 @@
 <template>
-    <li class="fs-5">
+    <li class="fs-6">
         <a class="mx-2" href="#">
             <i :class="'fab'+' '+ social_links"></i>
         </a>
@@ -13,4 +13,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import '../assets/scss/style.scss';
+
+li{
+    a{
+        color: #AAAAAA;
+    }
+}
 </style>

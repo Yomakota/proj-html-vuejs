@@ -15,7 +15,7 @@
     :courses="courses"
     />
     <main_noStudentsAction/>
-    <main_testimonial/>
+    <main_testimonial_banner/>
   </main>
 </template>
 
@@ -27,7 +27,7 @@ import main_recent_courses from './main_recent_courses.vue'
 import main_newsLetter from './main_newsLetter.vue'
 import main_popsCourses from './main_popsCourses.vue'
 import main_noStudentsAction from './main_noStudentsAction.vue'
-import main_testimonial from './main_testimonial.vue'
+import main_testimonial_banner from './main_testimonial_banner.vue'
 
 export default {
   name: 'MainPage',
@@ -39,7 +39,7 @@ export default {
     main_newsLetter,
     main_popsCourses,
     main_noStudentsAction,
-    main_testimonial
+    main_testimonial_banner
   },
   props: ['courses', 'recent_courses_menu', 'side_menu_icons'],
 }

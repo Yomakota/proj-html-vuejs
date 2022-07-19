@@ -2,52 +2,60 @@
     <div id="header-main" class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-11 py-3">
-                <div class="row row-cols-4 gx-1 align-items-center justify-content-between">
+                <div class="row row-cols-4 align-items-center justify-content-between">
                     <div class="col-2">
-                        <img src="../assets/images/MasterStudy.svg" alt="">
+                        <img class="w-100" src="../assets/images/MasterStudy.svg" alt="MasterStudy">
                     </div>
                     <div class="col-5">
                         <div class="input-group align-items-center">
-                            <button class="color-button btn btn-outline">
-                                <i class="me-1 fas fa-bars"></i>
-                                <span class="me-3 text-uppercase fs-6">category</span>
+                            <button class="btn btn-outline">
+                                <i class="fas fa-bars fs-10 me-1"></i>
+                                <span class="text-uppercase fs-10 me-1">category</span>
                             </button>
-                            <input type="text" class="color form-control p-3" placeholder="Search courses">
-                            <button class="input-group-text btn btn-primary-outline px-4 py-3">
-                                <i class="icon-color fas fa-search"></i>
+                            <input type="text" class="form-control input-field p-2" placeholder="Search courses">
+                            <button class="btn-search input-group-text btn btn-primary-outline px-3 py-2">
+                                <i class="icon-search-color fas fa-search"></i>
                             </button>
                         </div>
                     </div>
                     <div class="col-3">
-                        <a class="color-button btn btn-outline">
-                            <i class="me-1 fas fa-bullhorn"></i>
-                            <span class="me-3">Became an instructor</span>
-                        </a>
-                        <a class="color-button btn btn-outline">
-                            <i class="me-1 fas fa-briefcase"></i>
-                            <span>For Enterprise</span>
-                        </a>
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-6">
+                                <a class="btn btn-outline">
+                                    <i class="fas fa-bullhorn me-1"></i>
+                                    <span class="fs-10">Became an instructor</span>
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <a class="btn btn-outline">
+                                    <i class=" fas fa-briefcase me-1"></i>
+                                    <span class="fs-10">For Enterprise</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-2">
-                        <div class="row align-items-center justify-content-between">
-                            <a class="col-4">
-                                <i class="far fa-user"></i>
-                                <span>Log In</span>
+                    <div class="col-2 user-action">
+                        <div class="log-in row row-cols-3 align-items-center justify-content-between g-0">
+                            <a class="col-auto">
+                                <i class="far fa-user me-1"></i>
+                                <span class="fs-10">Log In</span>
                             </a>
-                            <a class="col-6">
-                                <button type="button" class="sign-up rounded-pill px-4 py-3 text-uppercase">
-                                    sign up
+                            <a class="col-auto">
+                                <button type="button"
+                                    class="sign-up btn btn-outline-danger rounded-pill text-uppercase fw-bold">
+                                    <span class=" fw-bolde fs-6">
+                                        sign up
+                                    </span>
                                 </button>
                             </a>
-                            <a class="col-2">
-                                <i class="fs-3 far fa-bookmark"></i>
+                            <a class="col-auto">
+                                <i class="fs-6 far fa-bookmark"></i>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
@@ -59,28 +67,31 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/scss/style.scss';
 
-
-.form-control::placeholder {
+#header-main {
     color: $venus;
-}
-.color{
-    background-color: $mistic;
-}
 
-.btn.btn-primary-outline{
-    background-color: $azure;
-    .icon-color{
-        color: white;
-        font-size: 25px;
+    .fs-10 {
+        font-size: 10px;
     }
-}
 
-.color-button{
-    color: $venus;
-}
+    .btn.btn-outline{
+        color: $venus;
+    }
 
-.sign-up{
-    color: white;
-    background-color: $coral-red;
+    .input-field {
+        background-color: $mistic;
+    }
+
+    .btn-search {
+        background-color: $oxford-blue;
+
+        .icon-search-color {
+            color: white;
+        }
+    }
+
+    .sign-up:hover {
+        background-color: $coral-red;
+    }
 }
 </style>

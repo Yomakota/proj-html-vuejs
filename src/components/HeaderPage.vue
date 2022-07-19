@@ -23,8 +23,4 @@ export default {
 </script>
 <style lang="scss">
 @import '../assets/scss/style.scss';
-.header{
-    background-color: $white;
-    color: $venus;
-}
 </style>

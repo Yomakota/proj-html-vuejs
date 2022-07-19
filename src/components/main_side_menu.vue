@@ -1,7 +1,7 @@
 <template>
-    <li class="col p-3 text-center">
+    <li class="col p-2 text-center">
         <a href="#">
-            <i class="fs-3" :class="'fas' + ' ' + side_menu_icons"></i>
+            <i class="fs-6" :class="'fas' + ' ' + side_menu_icons"></i>
         </a>
     </li>
 </template>
@@ -13,6 +13,11 @@ export default {
     props: ['side_menu_icons']
 }
 </script>
-<style lang="scss">
-
+<style lang="scss" scoped>
+@import '../assets/scss/style.scss';
+    li{
+        &:hover{
+            background-color: $mistic;
+        }
+    }
 </style>

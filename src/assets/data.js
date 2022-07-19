@@ -18,7 +18,7 @@ export const social_links = [
 export const courses = [
     {
         img: require('./images/895786_7b4b_2-272x161.jpg'),
-        category: "development",
+        category: "Development >",
         description: "The Complete iOS 10 & Swift 3 Developer Course",
         full_price: "$199.99",
         discounted_price: "$100",
@@ -26,7 +26,7 @@ export const courses = [
     },
     {
         img: require("./images/1561458_7f3b-272x161.jpg"),
-        category: "design",
+        category: "Design >",
         description: "CSS The Complete Guide 2020 (incl. Flexbox, Grid & Sass)",
         full_price: "$199.99",
         discounted_price: "$100",
@@ -34,7 +34,7 @@ export const courses = [
     },
     {
         img: require("./images/246154_d8b0_3-272x161.jpg"),
-        category: "development",
+        category: "Development >",
         description: "Web Designer for beginners: Real World Coding in HTML e CSS",
         full_price: "$129.99",
         discounted_price: "$65",
@@ -42,31 +42,30 @@ export const courses = [
     },
     {
         img: require("./images/1208228_d61c_4-272x161.jpg"),
-        category: "Design",
+        category: "Design >",
         description: "Digitally Painting Ligth and Color: Amateur to Master",
         full_price: "$139.99",
-        discounted_price: "$75",
+        discounted_price: "$70",
         vote: 4
     },
     {
         img: require("./images/186792_41e4_4-272x161.jpg"),
-        category: "Arts & Craft",
+        category: "Arts & Crafts >",
         description: "Become an Arabic Calligraphy Artist From Scratch",
-        full_price: "$109.99",
-        discounted_price: "$95",
+        discounted_price: "$199.99",
         vote: 5
     },
     {
         img: require("./images/1776542_30b1-272x161.jpg"),
-        category: "Google",
-        description: "Google Searching Ninja",
-        full_price: "$69.99",
+        category: "Google >",
+        description: "Google Searching Ninja!",
+        full_price: "$89.99",
         discounted_price: "$45",
-        vote: 5
+        vote: 4
     },
     {
         img: require("./images/949316_2a64_11-272x161.jpg"),
-        category: "Arts & Craft",
+        category: "Arts & Crafts >",
         description: "Foundations for Mastering Watercolor Painting",
         full_price: "$19.99",
         discounted_price: "$10",
@@ -74,15 +73,15 @@ export const courses = [
     },
     {
         img: require("./images/366802_6fcc-272x161.jpg"),
-        category: "Food & Beverage",
+        category: "Food & Beverage >",
         description: "Get Wine Smart",
         full_price: "$49.99",
         discounted_price: "$25",
-        vote: 5
+        vote: 4
     },
     {
         img: require("./images/381588_2e6d_4-272x161.jpg"),
-        category: "Arts & Craft",
+        category: "Arts & Crafts >",
         description: "The Colored Pencil Drawing Course",
         full_price: "$34.99",
         discounted_price: "$18",
@@ -90,7 +89,7 @@ export const courses = [
     },
     {
         img: require("./images/838056_611a_3-272x161.jpg"),
-        category: "Arts & Crafts",
+        category: "Arts & Crafts >",
         description: "Paint Realistic Watercolor and Botanicals - STUDIO BASICS",
         full_price: "$69.99",
         discounted_price: "$35",
@@ -98,7 +97,7 @@ export const courses = [
     },
     {
         img: require("./images/1414956_d944_15-272x161.jpg"),
-        category: "Arts & Crafts",
+        category: "Arts & Crafts >",
         description: "Mastering Brushstrokes - Part 1",
         full_price: "$19.99",
         discounted_price: "$10",
@@ -106,7 +105,7 @@ export const courses = [
     },
     {
         img: require("./images/1109398_4c13-272x161.jpg"),
-        category: "Arts & Craft",
+        category: "Arts & Crafts >",
         description: "Paint Realistic Watercolor and Botanicals - MAGNOLIAS",
         full_price: "$69.99",
         discounted_price: "$35",
@@ -114,7 +113,7 @@ export const courses = [
     },
     {
         img: require("./images/752950_b773-272x161.jpg"),
-        category: "development",
+        category: "Development >",
         description: "GitHub Ultimate: Master Git and GitHub - Beginner to Expert",
         full_price: "$99.99",
         discounted_price: "$50",
@@ -122,7 +121,7 @@ export const courses = [
     },
     {
         img: require("./images/1253188_58f7_2-272x161.jpg"),
-        category: "development",
+        category: "Development >",
         description: "The Complete iOS 11 & Swift Developer Course, Build 20 Apps",
         full_price: "$199.99",
         discounted_price: "$100",
@@ -130,19 +129,19 @@ export const courses = [
     },
     {
         img: require("./images/919872_ed54_6-272x161.jpg"),
-        category: "development",
+        category: "Development >",
         description: "Android Java Masterclass - Become an App Developer",
         full_price: "$199.99",
         discounted_price: "$100",
-        vote: 5
+        vote: 4
     },
     {
         img: require("./images/951684_9c1a_2-272x161.jpg"),
-        category: "development",
+        category: "Development >",
         description: "Xamarin Forms: Build Native Cross Platform Apps with C#",
         full_price: "$109.99",
         discounted_price: "$95",
-        vote: 5
+        vote: 4
     }
 ]
 

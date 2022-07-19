@@ -1,7 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
 @import './vars.scss';
 
-*a {
-    text-decoration: inherit;
+@import '~@fontsource/montserrat/index.css';
+@import '~@fontsource/montserrat/700.css';
+
+a {
+    text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }

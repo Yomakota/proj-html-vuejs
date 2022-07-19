@@ -1,5 +1,5 @@
 <template>
-    <li class="fs-5">
+    <li class="fs-6">
         <a class="col mx-4" href="#">
             <i :class="'fas'+' '+ nav_menu_links.icon" class="mx-2"></i>
             <span>{{ nav_menu_links.text }}</span>
@@ -14,4 +14,10 @@ export default {
 </script>
 <style lang="scss">
 @import '../assets/scss/style.scss';
+
+li{
+    a:hover{
+        color: $venus;
+    }
+}
 </style>
