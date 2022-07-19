@@ -1,8 +1,8 @@
 <template>
     <li class="col mb-3">
         <div class="card h-100">
-            <div class="card-img-top">
-                <img :src="courses.img" :alt="courses.description" class="w-100">
+            <div class="card-img-top scale">
+                <img :src="courses.img" :alt="courses.description">
             </div>
             <div>
                 <div class="card-body p-2">
@@ -41,11 +41,28 @@ export default {
 <style lang="scss">
 @import '../assets/scss/style.scss';
 
-.fs-7{
+li {
+    cursor: pointer;
+
+    .scale {
+        overflow: hidden;
+
+        &>img {
+            width: 100%;
+        }
+    }
+
+    &:hover .scale>img {
+        transition: all 1s;
+        transform: scale(1.1);
+    }
+}
+
+.fs-7 {
     font-size: .7em;
 }
 
-.fs-small{
+.fs-small {
     font-size: .5em;
 }
 </style>
