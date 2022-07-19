@@ -21,7 +21,7 @@
                                         </div>
                                         <div class="p-1">
                                             <button type="button"
-                                                class="btn btn-danger rounded-pill text-uppercase shadow-none">start
+                                                class="btn btn-danger rounded-pill text-uppercase shadow-none fw-bold fs-8 p-3">start
                                                 teaching
                                             </button>
                                         </div>
@@ -46,7 +46,7 @@
                                         </div>
                                         <div class="p-1">
                                             <button type="button"
-                                                class="btn btn-danger rounded-pill text-uppercase shadow-none">doing
+                                                class="btn btn-danger rounded-pill text-uppercase shadow-none fw-bold fs-8 p-3">doing
                                                 business</button>
                                         </div>
                                     </div>
@@ -69,6 +69,10 @@ export default {
 .fs-7{
     font-size: .7em;
     color: $venus;
+}
+
+.fs-8{
+    font-size: .8em;
 }
 
 .btn.btn-danger {
