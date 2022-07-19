@@ -15,7 +15,11 @@
                             <div class="mb-3">USA, California 20, First Avenue, California</div>
                             <div>Tel: +1 212 458 300 32</div>
                             <div class="mb-2">Fax: +1 212 375 24 14</div>
-                            <div class="e-mail">info@masterstudy.com</div>
+                            <div class="e-mail">
+                                <a href="#">
+                                    info@masterstudy.com
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col">

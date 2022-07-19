@@ -1,7 +1,7 @@
 <template>
     <div id="header-bottom-nav-menu" class="container-fluid">
         <div class="row justify-content-center py-4">
-            <div class="col-11">
+            <div class="col-8">
                 <ul class="nav justify-content-center">
                     <header_BottomLinks v-for="element, index in nav_menu_links" :key="index"
                         :nav_menu_links="element" />
@@ -26,6 +26,6 @@ export default {
 
 #header-bottom-nav-menu{
     background-color: $ebony-clay;
-    color: white;
+    color: $mystic;
 }
 </style>

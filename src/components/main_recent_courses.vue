@@ -79,7 +79,7 @@ export default {
     li{
         &:hover,
         &.clicked{
-            background-color: $mistic;
+            background-color: $mystic;
         }
     }
 }

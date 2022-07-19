@@ -3,7 +3,7 @@
         <div class="container_fluid mt-5">
             <div class="row justify-content-center">
                 <div class="col-11">
-                    <h3 class="fs-5 mb-4">
+                    <h3 class="fs-5 fw-bold mb-4">
                         Popular Development Courses
                     </h3>
                     <div>

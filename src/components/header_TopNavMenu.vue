@@ -50,11 +50,11 @@ export default {
 @import '../assets/scss/style.scss';
 
 #header-top{
-    color: lightgray;
+    color: $mystic;
     font-size: 12px;
-    border-bottom: 1px solid $mistic;
+    border-bottom: 1px solid $mystic;
 }
 .btn.btn-outline {
-    color: lightgrey;
+    color: $mystic;
 }
 </style>

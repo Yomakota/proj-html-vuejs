@@ -10,8 +10,8 @@
                         <div class="col-8 py-6">
                             <div class="row">
                                 <div class="col-6">
-                                    <h2 class="fw-bolder fs-1 mb-4">Udemy Affiliate Sales</h2>
-                                    <h3 class="fs-5">Monetize your audience and attract new customers with Udemy!</h3>
+                                    <h3 class="fw-bolder fs-1 mb-4">Udemy Affiliate Sales</h3>
+                                    <h4 class="fs-6">Monetize your audience and attract new customers with Udemy!</h4>
                                 </div>
                             </div>
                         </div>

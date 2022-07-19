@@ -17,7 +17,7 @@ export default {
 @import '../assets/scss/style.scss';
     li{
         &:hover{
-            background-color: $mistic;
+            background-color: $mystic;
         }
     }
 </style>

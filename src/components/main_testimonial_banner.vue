@@ -5,7 +5,7 @@
                 <div class="col-8">
                     <div class="row p-5">
                         <div class="col-8 text-banner">
-                            <h3>Investing for Your Future</h3>
+                            <h4>Investing for Your Future</h4>
                             <p class="text-p mt-4 mb-4">It is no exageration to say this MasterStudy
                                 experience was trasformative-both professionally and personally. This
                                 workshop will long remain a high point of my life. Thanks again... I am

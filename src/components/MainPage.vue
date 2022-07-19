@@ -1,6 +1,5 @@
 <template>
   <main>
-    <main_JumboTron />
     <main_devsCourses
     :courses="courses"
     />
@@ -20,7 +19,6 @@
 </template>
 
 <script>
-import main_JumboTron from './main_JumboTron.vue'
 import main_devsCourses from './main_devsCourses.vue'
 import main_bg_banner from './main_bg_banner.vue'
 import main_recent_courses from './main_recent_courses.vue'
@@ -32,7 +30,6 @@ import main_testimonial_banner from './main_testimonial_banner.vue'
 export default {
   name: 'MainPage',
   components: {
-    main_JumboTron,
     main_devsCourses,
     main_bg_banner,
     main_recent_courses,

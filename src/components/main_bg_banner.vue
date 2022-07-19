@@ -5,15 +5,15 @@
                 <div class="col-6">
                     <div class="row justify-content-end">
                         <div class="col-7 py-bg-banner">
-                            <h2 class="fs-7 fw-bold">Limitless learning, more possibilities</h2>
+                            <h3 class="fs-7 fw-bold">Limitless learning, more possibilities</h3>
                             <p class="fs-small">Online courses open the oppurtinity for learning to almost anyone,
                                 regardless of
                                 their scheduling commitments
                             </p>
                             <button type="button"
-                                class="read-more btn btn-outline-danger rounded-pill text-uppercase fw-bold">
+                                class="read-more btn btn-outline-danger rounded-pill text-uppercase fw-bold fs-6 p-3">
                                 read more
-                                </button>
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -42,14 +42,14 @@
                             </a>
                             <a class="col-auto">
                                 <button type="button"
-                                    class="sign-up btn btn-outline-danger rounded-pill text-uppercase fw-bold">
-                                    <span class=" fw-bolde fs-6">
+                                    class="sign-up btn btn-outline-danger rounded-pill text-uppercase fw-bold p-3">
+                                    <span class="fs-6">
                                         sign up
                                     </span>
                                 </button>
                             </a>
                             <a class="col-auto">
-                                <i class="fs-6 far fa-bookmark"></i>
+                                <i class="fs-4 far fa-bookmark"></i>
                             </a>
                         </div>
                     </div>
@@ -77,11 +77,9 @@ export default {
     .btn.btn-outline{
         color: $venus;
     }
-
     .input-field {
-        background-color: $mistic;
+        background-color: $mystic;
     }
-
     .btn-search {
         background-color: $oxford-blue;
 
@@ -89,7 +87,6 @@ export default {
             color: white;
         }
     }
-
     .sign-up:hover {
         background-color: $coral-red;
     }

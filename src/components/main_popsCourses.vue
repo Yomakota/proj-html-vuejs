@@ -47,17 +47,17 @@ export default {
 @import'../assets/scss/style.scss';
 
 #popular-courses {
-    background-color: $mistic;
+    background-color: $mystic;
 
     button {
         background-color: $white;
-        border-color: $mistic;
-        color: $mistic;
+        border-color: $mystic;
+        color: $mystic;
         font-size: 1.5em;
 
         &:hover {
             background-color: $oxford-blue;
-            color: $mistic;
+            color: $mystic;
         }
     }
 }

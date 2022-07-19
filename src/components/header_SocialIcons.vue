@@ -16,7 +16,7 @@ export default {
 
 li{
     a{
-        color: #AAAAAA;
+        color: $venus;
     }
 }
 </style>
